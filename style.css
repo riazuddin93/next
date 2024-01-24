@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.topinfo{
+    background: #f0f0f09c;
+    display: flex;
+    justify-content: end;
+    padding: 5px 150px;
+}
+.topinfo p{
+    padding-left: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+}
+/* nav */
+nav{
+    display: flex;
+    padding: 5px 150px;
+    height: 50px;
+    /* background: red; */
+    justify-content: space-between;
+}
+nav .left{
+    /* background: pink; */
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+ nav  .left img{
+    width: 100px;
+ }
+ nav input{
+    width: 600px;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.567);
+ }
+ nav .right{
+    /* background: aqua; */
+    display: flex;
+    align-items: center;
+ }
+ nav .right p{
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-right: 130px;
+ }
+ nav .right button{
+    width: 120px;
+    background: #b2d7d7;
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding: 7px 12px;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+ }
+
+ /* blacknav */
+ .blacknav nav{
+    width: 100%;
+    height: 35px;
+    background: black;
+    display: flex;
+    justify-content: center;
+ }
+.blacknav nav ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    /* background: blue; */
+    width: 1210px;
+    display: flex;
+    justify-content: space-between;
+}
+.blacknav nav ul li{
+    text-transform: uppercase;
+    
+    font-size: 14px;
+    font-weight: 600;
+    /* background: pink; */
+    margin-left: 2px;
+    /* width: 110px; */
+}
+
+/* hero------------ */
+.hero{
+width: 100%;
+height: 620px;
+/* background: grey; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero .content{
+width: 95%;
+height: 95%;
+background: url('hero1.jpg') no-repeat center/cover;
+}
+
+/* card */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background: pink; */
+    padding: 0 40px;
+}
+
+.cards .card img{
+    width: 470px;
+}
+
+/* circlecards */
+.circlecards {
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.circlecards .card img{
+    width: 100px;
+    border-radius: 50px;
+}
+/* banner */
+.thebanner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    background: url('bannerone.jpg')no-repeat center/cover;
+}
+.thebanner .banner{
+display: flex;
+align-items: center;
+padding: 0 30px;
+}
+.thebanner .banner .content{
+    width: 50%;
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+}
+.thebanner .banner .content h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+} 
+.thebanner .banner .button button{
+    background: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+/* banner2 */
+#banner2{
+    background: url('banner3done.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: end;
+}
+.thebanner .banner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background: red; */
+    
+
+}
+.thebanner .banner .content #h1{
+    color: black;
+    font-size: 20px;
+}
+.thebanner .banner .content #p{
+    font-size: 12px;
+    padding: 20px 0;
+    width: 50%;
+}
+.thebanner .banner .content a{
+ 
+    text-transform: capitalize;
+    font-size: 12px;
+    color: black;
+}
+/* shorst cards */
+.shortcards{
+    padding: 5px 40px;
+    /* background: blue; */
+}
+.shortcards p{
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.shortcards .cards{
+    padding: 0 0;
+}
+.shortcards .cards .card{
+    /* background: pink; */
+    width: 710px;
+}
+.shortcards .cards .card img{
+    width: 100%;
+}
