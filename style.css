@@ -110,14 +110,21 @@ background: url('hero1.jpg') no-repeat center/cover;
 /* card */
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     /* background: pink; */
     padding: 0 40px;
 }
-
+.cards .card{
+    background: red;
+    min-width: 300px;
+    width: calc(33.33% - 30px); /* Initially, each card occupies 1/3 of the space with some margin */
+}
 .cards .card img{
-    width: 470px;
+    width: 100%;
+    max-width: 470px;
+    min-width: 100px;
 }
 
 /* circlecards */
